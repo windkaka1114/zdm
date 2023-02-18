@@ -39,7 +39,6 @@ jobs:
     - name: git add files
       run: |
         git add pushed.txt
-        git add unpushed.txt
         git add ./logs/
     - name: commit & push
       uses: actions-go/push@master
