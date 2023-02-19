@@ -2,6 +2,8 @@ name: zdm_crawler
 
 on:
   #将下面两行代码取消注释
+  push:
+    branches: master
   schedule:
     - cron: "0/10 * * * *"
   workflow_dispatch:
